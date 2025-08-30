@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Web Host
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <base target="_self">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Help</a>
+            <button class="login">Login</button>
+        </nav>
+    </header>
+
+    <div class="logs">
+        
+        <span class="close"><img src="close.png"></span>
+        <div class="entry1">
+            <div class="formbox">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input">
+                        <span class="icon"><img src="mail.bmp"></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input">
+                        <span class="icon"><img src="lock.png"></span>
+                        <input type="password" required>
+                        <label>Password</label> 
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember Me</label>
+                        <a href="#">Forgot password</a>
+    
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="openaccount">
+                        <p>Don't have an account?</p>
+                        <a href="#" class="signup">Register</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="entry2">
+            <div class="formboxR">
+                <h2>REGISTER</h2>
+                <form action="#">
+                    <div class="input">
+                        <span class="icon"><img src="mail.bmp"></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input">
+                        <span class="icon"><img src="lock.png"></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="input">
+                        <span class="icon"><img src="lock.png"></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> I agree to the terms and condition</label>
+    
+    
+                    </div>
+                    <button type="submit" class="btn">Create Account</button>
+                    <div class="openaccount">
+                        <p>Already have an account?</p>
+                        <a href="#" class="return">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
