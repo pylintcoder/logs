@@ -1,2 +1,2 @@
 # project9
-CITSA PROJECT 1
+Daily program
